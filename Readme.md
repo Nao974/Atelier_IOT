@@ -34,7 +34,7 @@ Ce dépot regroupe les ressources necessaires au bon déroulé des ateliers IOT 
         1. Connexion de vos IOT
         1. Sécurisation des échanges
         1. Tableau de Bord
-            1. Infludb
+            1. Influxdb
             1. Telegraf
             1. Grafana
 
