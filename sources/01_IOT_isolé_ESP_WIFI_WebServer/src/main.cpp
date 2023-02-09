@@ -8,12 +8,13 @@
 #include <Arduino.h>
 
 #include <WiFi.h>
-#include <mDNS.h>
+#include <WebServer.h>
 
 #include "DHT20.h"
 
-const char *SSID = "Livebox-A250";
-const char *PWD= "yezvypYswaeUhtGGTL";
+const char *SSID = "Livebox...";
+const char *PWD= "yezv...UhtGGTL";
+WebServer server(80);
 
 const uint8_t PINLED = 7;
 uint8_t ledState = LOW;

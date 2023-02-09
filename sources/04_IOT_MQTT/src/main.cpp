@@ -9,13 +9,13 @@ DHT20 DHT;
 const uint8_t PINLED = 7;
 
 // Définition des paramétrages de connexion Wifi & MQTT
-const char *SSID = "Livebox-A250";
-const char *PWD= "yezvypYswaeUhtGGTL";
+const char *SSID = "Livebox...";
+const char *PWD= "yezv...aeUhtGGTL";
 const char *HOSTNAME = "ESP32C3M1";
 //const char * mqtt_server = "broker974.local";
 const char * mqtt_server = "192.168.1.27";
-const char * mqtt_user = "nao974";
-const char * mqtt_passwd = "az$er";
+const char * mqtt_user = "user";
+const char * mqtt_passwd = "mot2passe";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -90,10 +90,10 @@ void setup() {
 }
 
 void loop() {
-// array pour les données des messages à envoyer
-    char msg[16];
 // array pour le nom du topic à envoyer
     char topic[64];
+// array pour les données des messages à envoyer
+    char msg[16];
 
 // sommes nous connectés ?
     if (!client.connected() )
@@ -108,17 +108,17 @@ void loop() {
 
 // Lecture du capteur
         DHT.read();
-// Construction du message        
-        sprintf(msg, "%f", DHT.getTemperature());
 // Construction du nom du topic        
         sprintf(topic, "maison/%s/temperature", HOSTNAME);
+// Construction du message        
+        sprintf(msg, "%f", DHT.getTemperature());       
 // Publication        
         client.publish(topic, msg);
 
-// Idem pour l'humidity     
-        sprintf(msg, "%f", DHT.getHumidity());
 // Construction du nom du topic        
         sprintf(topic, "maison/%s/humidity", HOSTNAME);
+// Idem pour l'humidity     
+        sprintf(msg, "%f", DHT.getHumidity());
 // Publication        
         client.publish(topic, msg);        
     }

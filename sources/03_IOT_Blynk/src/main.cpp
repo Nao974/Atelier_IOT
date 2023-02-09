@@ -10,7 +10,7 @@
 
 #define BLYNK_TEMPLATE_ID           "TMPLxiv21b68"
 #define BLYNK_DEVICE_NAME           "Quickstart Device"
-#define BLYNK_AUTH_TOKEN            "pfgkTzggZMisUkyfEOG6k-1o55je5BDP"
+#define BLYNK_AUTH_TOKEN            "pfgkTzg...G6k-1o55je5BDP"
 
 // Comment this out to disable prints and save space
 #define BLYNK_PRINT Serial
@@ -23,8 +23,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Livebox-A250";
-char pass[] = "yezvypYswaeUhtGGTL";
+char ssid[] = "Livebox...";
+char pass[] = "yezv...waeUhtGGTL";
 
 BlynkTimer timer;
 

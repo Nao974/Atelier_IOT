@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 /* 
  * Exemple de Code pour la mise en oeuvre du DeepSleep sur ESP32
  * Pendant ce mode la majeure partie de la RAM et tous les périphériques numériques sont mis hors tension. 
@@ -9,6 +7,8 @@
  *        - le processeur ULP
  *        - Mémoires RTC (lentes et rapides)
  */
+
+#include <Arduino.h>
 
 // Pour sauvegarder une variable même après avoir mis l'ESP en deep sleep
 //  il faut l'enregistrer dans la mémoire RTC en déclarant la variable en globale de ce type

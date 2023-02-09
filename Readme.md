@@ -30,10 +30,13 @@ Ce dépot regroupe les ressources necessaires au bon déroulé des ateliers IOT 
         1. Arduino IOT
         1. Blynk et autres
     1. Protocole MQTT et serveur local
-        1. Broker MQTT: Mosquitto
+        1. Broker MQTT sur Raspberry: Mosquitto
         1. Connexion de vos IOT
         1. Sécurisation des échanges
         1. Tableau de Bord
+            1. Infludb
+            1. Telegraf
+            1. Grafana
 
 # Détail des Cartes MicroControleurs
 

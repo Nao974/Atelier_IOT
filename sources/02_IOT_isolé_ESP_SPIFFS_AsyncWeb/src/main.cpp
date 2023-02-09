@@ -1,3 +1,13 @@
+/* Exemple d'utilisation d'un IOT sur ESP32
+    Mettant en pratique l'utilisation d'un serveur Web Asynchrone sur liaison Wifi
+        - Stockage des fichiers Web par SPIFFS
+        - MAJ des mesures et commande de la LED en AJAX
+        
+        - ON /OFF d'une led à distance
+        - Mesure & Visualisation de la température & Humidité au travers d'un capteur DHT20
+    Sur la base du travail de Tommy DesRochers: https://tommydesrochers.com/
+*/
+
 #include <Arduino.h>
 
 #include <ESPAsyncWebServer.h>
@@ -5,8 +15,8 @@
 
 #include "DHT20.h"
 
-const char *SSID = "Livebox-A250";
-const char *PWD= "yezvypYswaeUhtGGTL";
+const char *SSID = "Livebox...";
+const char *PWD= "yez...waeUhtGGTL";
 AsyncWebServer server(80);
 
 const uint8_t PINLED = 7;
