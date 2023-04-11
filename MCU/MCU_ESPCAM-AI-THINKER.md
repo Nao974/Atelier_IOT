@@ -8,21 +8,23 @@
     - PSRAM: 4MB
     - Wifi & BLE
 - Capteur OV2640
-- LED blanche CMS haute luminausité
+- LED blanche CMS haute luminausité Flashlight (GPIO 4)
 - Lecteur de carte micro-SD 4 Go maxi
     - !!! Broches utilisées par le lecteur micro-SD: 2, 4, 12, 13, 14 et 15
 - Antenne µFL
 - PInOUT : https://randomnerdtutorials.com/esp32-cam-ai-thinker-pinout/
 
-
-
-
-
-
 - Functional_Block_Diagram
 <p >
     <img src="assets/ESP32-S_Functional_Block_Diagram.png"  width="75%" alt="Functional_Block_Diagram">
 </p>
+
+- Dimensions
+<p >
+    <img src="assets/ESPCAM_AI_THINKER_Dimension.png"  width="75%" alt="Dimensions">
+</p>
+
+
 
 - Programmateur FT232RL GT1125: https://www.gotronic.fr/pj2-35183-1542.pdf
     - driver Windows: https://ftdichip.com/drivers/vcp-drivers/
