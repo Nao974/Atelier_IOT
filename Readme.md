@@ -42,7 +42,10 @@ Ce dépot regroupe les ressources necessaires au bon déroulé des ateliers IOT 
 
 - [ESP32_Feather_V2_Adafruit]
 - [ESP32-S2_QT-Py_uFL_Adafruit]
+- [ESP32-S3_QT-Py_uFL_Adafruit]
+- [ESP32-C3_uFL_Bat SeedStudio_XIAO]
 - [ESP32-C3-M1]
+- [ESP32-C6_uFL_Bat_ZeegBee_Thread SeedStudio_XIAO]
 - [ESP32-DevKitC_v4]
 - [ESP32-PICO_KIT_v4.1]
 - [ESP32-S3-DevKitC-1]
@@ -59,6 +62,9 @@ Différentes fiches composants et cours dans le dossier [FICHES]
 [ESP32-DevKitC_v4]: ./MCU/MCU_ESP32-DevKitC_v4.md
 [ESP32-PICO_KIT_v4.1]: ./MCU/MCU_ESP32-PICO_KIT_v4.1.md
 [ESP32-S2_QT-Py_uFL_Adafruit]: ./MCU/MCU_ESP32-S2_QT-Py_uFL_Adafruit.md
+[ESP32-S3_QT-Py_uFL_Adafruit]: ./MCU/MCU_ESP32-S3_QT-Py_uFL_Adafruit.md
+[ESP32-C3_uFL_Bat SeedStudio_XIAO]: ./MCU/MCU_ESP32-C3_uFL_Bat_SeedStudio_XIAO.md
+[ESP32-C6_uFL_Bat_ZeegBee_Thread SeedStudio_XIAO]: ./MCU/MCU_ESP32-C6_uFL_Bat_ZeegBee_Thread_SeedStudio_XIAO.md
 [ESP32-S3-DevKitC-1]: ./MCU/MCU_ESP32-S3-DevKitC-1.md
 [ESPCAM-AI-THINKER]: ./MCU/MCU_ESPCAM-AI-THINKER.md
 [ESP8266-01]: ./MCU/MCU_ESP8266-01.md

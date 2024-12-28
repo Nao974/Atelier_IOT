@@ -3,10 +3,11 @@
 - https://www.gotronic.fr/blog/guides/utilisation-du-module-eps32-cam-avec-arduino/
 - ESP32-S2 embedded
     - https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf
-    - Xtensa® single-core 32-bit LX7 microprocessor, up to 240 MHz
-    - Flash RAM: 320KB
-    - PSRAM: 4MB
-    - Wifi & BLE
+        - Xtensa® single-core 32-bit LX7 microprocessor, up to 240 MHz
+        - Flash RAM: 320KB
+        - PSRAM: 4MB
+        - Wifi & BLE
+    - Detail PCB: https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s2/pcb-layout-design.html
 - Capteur OV2640
 - LED blanche CMS haute luminausité Flashlight (GPIO 4)
 - Lecteur de carte micro-SD 4 Go maxi
